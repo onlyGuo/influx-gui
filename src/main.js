@@ -3,7 +3,9 @@ import App from './App.vue'
 import router from './router'
 import VueElectron from 'vue-electron'
 import vuetify from './plugins/vuetify'
+
 Vue.use(VueElectron)
+// Vue.use(Monaco)
 
 Vue.config.productionTip = false
 
